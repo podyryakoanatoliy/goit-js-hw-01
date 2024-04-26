@@ -3,7 +3,7 @@ function getElementWidth(content, padding, border) {
     const numPadding = Number.parseFloat(padding);
     const numBorder = Number.parseFloat(border);
     const totalElementWidth = numContent + (2 * numPadding) + (2 * numBorder);
-    return `The total width of the screen is: ${totalElementWidth} px`;
+    return `${totalElementWidth}`;
 }
 
 console.log(getElementWidth("50px", "8px", "4px"));
